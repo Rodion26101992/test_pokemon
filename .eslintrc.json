@@ -31,7 +31,8 @@
         "require-jsdoc": "off",
         "no-unused-vars": "off",
         "@typecripte-eslint/ban-ts-comment": "off",
-        "@typecripte-eslint/ban-types": "off"
+        "@typecripte-eslint/ban-types": "off",
+        "prettier/prettier": ["error", { "endOfLine": "auto" }] 
 
     }
 }
