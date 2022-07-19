@@ -1,0 +1,25 @@
+@import '../../styles/colors.scss';
+
+.pokemon-list-componet{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 40%;
+  :hover{
+    background: $bgIfoColor;
+    border-radius: 20px;
+  }
+  a{ 
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  .item-list{
+    border: 1px solid $blackColor;
+    border-radius: 20px;
+    padding: 10px 0;
+    label{ 
+      cursor: pointer;
+    }
+  }
+  
+}

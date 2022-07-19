@@ -1,0 +1,21 @@
+@import '../../styles/colors.scss';
+
+.wrapper-pagination{
+
+ ul{ 
+    display: flex;
+    list-style-type: none;
+  li{
+     a{
+   
+      border: .5px solid;
+      border-radius: 5px;
+      padding: 3px 5px;
+      cursor: pointer;
+     }
+     margin: 0 1px ;
+
+  }
+  }
+
+}
